@@ -1,7 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-pedagogie.ac-toulouse.fr	TRUE	/	FALSE	1999999999	Apache	192.168.2.1.1604501022659767
-pedagogie.ac-toulouse.fr	TRUE	/	FALSE	1999999999	SERVERID	pedagogie3.ac-toulouse.fr
-accounts.google.com	TRUE	/	FALSE	1999999999	__Host-GAPS	1:NCgZqq6lVGgCMnhph7mssT4dbKPtYA:pq0bpDDbmbnEe8wZ
-accounts.google.com	TRUE	/	FALSE	1999999999	Priority	HIGH
-
