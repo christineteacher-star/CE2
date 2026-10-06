@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portail Pédagogique - CP, CE1, CE2, CM1 (Sciences)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #4f46e5;
+            --secondary-color: #06b6d4;
+            --bg-light: #f8fafc;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-light);
+            color: #1e293b;
+        }
+        .navbar {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+        }
+        .hero-section {
+            background: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%);
+            color: white;
+            padding: 3rem 1rem;
+            border-radius: 0 0 2rem 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 25px -5px rgba(79, 70, 229, 0.3);
+        }
+        .level-card {
+            border: none;
+            border-radius: 1rem;
+            background: white;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+        .card-header-cp { background-color: #ec4899; color: white; border-radius: 1rem 1rem 0 0 !important; }
+        .card-header-ce1 { background-color: #8b5cf6; color: white; border-radius: 1rem 1rem 0 0 !important; }
+        .card-header-ce2 { background-color: #3b82f6; color: white; border-radius: 1rem 1rem 0 0 !important; }
+        .card-header-cm1 { background-color: #10b981; color: white; border-radius: 1rem 1rem 0 0 !important; }
+        
+        .lesson-item {
+            padding: 0.5rem 0.75rem;
+            border-bottom: 1px solid #f1f5f9;
+            transition: background-color 0.2s;
+        }
+        .lesson-item:hover {
+            background-color: #f8fafc;
+        }
+        .footer {
+            background-color: #0f172a;
+            color: #94a3b8;
+            padding: 3rem 0;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><i class="fas fa-graduation-cap me-2"></i>Espace Pédagogique - Sciences</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-5 fw-bold mb-3">Programme de Sciences : CP, CE1, CE2, CM1</h1>
+            <p class="lead mb-0 col-lg-8 mx-auto">Retrouvez ci-dessous le détail des 20 leçons de sciences pour chaque niveau de classe.</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <div class="row">
+            
+            <!-- CP -->
+            <div class="col-lg-6">
+                <div class="level-card">
+                    <div class="card-header card-header-cp py-3 text-center">
+                        <h3 class="h4 mb-0 fw-bold"><i class="fas fa-flask me-2"></i>CP - Sciences (20 Leçons)</h3>
+                    </div>
+                    <div class="card-body p-3" style="max-height: 400px; overflow-y: auto;">
+                        <ul class="list-unstyled mb-0">
+                            <li class="lesson-item"><strong>Leçon 1 :</strong> Découvrir son corps</li>
+                            <li class="lesson-item"><strong>Leçon 2 :</strong> Les cinq sens et leurs organes</li>
+                            <li class="lesson-item"><strong>Leçon 3 :</strong> L'hygiène corporelle</li>
+                            <li class="lesson-item"><strong>Leçon 4 :</strong> Les mouvements du corps</li>
+                            <li class="lesson-item"><strong>Leçon 5 :</strong> Les animaux familiers</li>
+                            <li class="lesson-item"><strong>Leçon 6 :</strong> Comment se déplacent les animaux ?</li>
+                            <li class="lesson-item"><strong>Leçon 7 :</strong> Ce que mangent les animaux</li>
+                            <li class="lesson-item"><strong>Leçon 8 :</strong> Découvrir les plantes de la cour</li>
+                            <li class="lesson-item"><strong>Leçon 9 :</strong> Les parties d'une plante</li>
+                            <li class="lesson-item"><strong>Leçon 10 :</strong> De la graine à la plante</li>
+                            <li class="lesson-item"><strong>Leçon 11 :</strong> L'eau : où la trouve-t-on ?</li>
+                            <li class="lesson-item"><strong>Leçon 12 :</strong> Les états de l'eau (solide / liquide)</li>
+                            <li class="lesson-item"><strong>Leçon 13 :</strong> L'air autour de nous</li>
+                            <li class="lesson-item"><strong>Leçon 14 :</strong> Le jour et la nuit</li>
+                            <li class="lesson-item"><strong>Leçon 15 :</strong> Le chaud et le froid</li>
+                            <li class="lesson-item"><strong>Leçon 16 :</strong> Les objets qui nous entourent</li>
+                            <li class="lesson-item"><strong>Leçon 17 :</strong> Matières et matériaux (bois, plastique, métal)</li>
+                            <li class="lesson-item"><strong>Leçon 18 :</strong> Fabriquer un objet simple</li>
+                            <li class="lesson-item"><strong>Leçon 19 :</strong> Les dangers de la maison (électricité, produits)</li>
+                            <li class="lesson-item"><strong>Leçon 20 :</strong> Respecter la nature et trier les déchets</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CE1 -->
+            <div class="col-lg-6">
+                <div class="level-card">
+                    <div class="card-header card-header-ce1 py-3 text-center">
+                        <h3 class="h4 mb-0 fw-bold"><i class="fas fa-flask me-2"></i>CE1 - Sciences (20 Leçons)</h3>
+                    </div>
+                    <div class="card-body p-3" style="max-height: 400px; overflow-y: auto;">
+                        <ul class="list-unstyled mb-0">
+                            <li class="lesson-item"><strong>Leçon 1 :</strong> Le corps qui grandit (taille, poids)</li>
+                            <li class="lesson-item"><strong>Leçon 2 :</strong> Une alimentation équilibrée</li>
+                            <li class="lesson-item"><strong>Leçon 3 :</strong> Le brossage des dents et la santé</li>
+                            <li class="lesson-item"><strong>Leçon 4 :</strong> Le sommeil et la fatigue</li>
+                            <li class="lesson-item"><strong>Leçon 5 :</strong> Classer les animaux (vertébrés / invertébrés)</li>
+                            <li class="lesson-item"><strong>Leçon 6 :</strong> Le cycle de vie d'un animal (naissance, croissance)</li>
+                            <li class="lesson-item"><strong>Leçon 7 :</strong> Les régimes alimentaires (carnivores, herbivores)</li>
+                            <li class="lesson-item"><strong>Leçon 8 :</strong> Les animaux au fil des saisons</li>
+                            <li class="lesson-item"><strong>Leçon 9 :</strong> Le développement d'une plante à fleurs</li>
+                            <li class="lesson-item"><strong>Leçon 10 :</strong> Les besoins d'une plante (eau, lumière)</li>
+                            <li class="lesson-item"><strong>Leçon 11 :</strong> Les arbres : feuillus et conifères</li>
+                            <li class="lesson-item"><strong>Leçon 12 :</strong> Le cycle de l'eau dans la nature</li>
+                            <li class="lesson-item"><strong>Leçon 13 :</strong> Utiliser et économiser l'eau</li>
+                            <li class="lesson-item"><strong>Leçon 14 :</strong> Propriétés de l'air (on peut l'emprisonner)</li>
+                            <li class="lesson-item"><strong>Leçon 15 :</strong> Le vent et ses effets</li>
+                            <li class="lesson-item"><strong>Leçon 16 :</strong> Les sources de lumière et les ombres</li>
+                            <li class="lesson-item"><strong>Leçon 17 :</strong> Solide ou liquide ? Expériences simples</li>
+                            <li class="lesson-item"><strong>Leçon 18 :</strong> Les objets techniques et leurs mouvements</li>
+                            <li class="lesson-item"><strong>Leçon 19 :</strong> Se protéger des accidents domestiques</li>
+                            <li class="lesson-item"><strong>Leçon 20 :</strong> Le recyclage des déchets à l'école</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CE2 -->
+            <div class="col-lg-6">
+                <div class="level-card">
+                    <div class="card-header card-header-ce2 py-3 text-center">
+                        <h3 class="h4 mb-0 fw-bold"><i class="fas fa-flask me-2"></i>CE2 - Sciences (20 Leçons)</h3>
+                    </div>
+                    <div class="card-body p-3" style="max-height: 400px; overflow-y: auto;">
+                        <ul class="list-unstyled mb-0">
+                            <li class="lesson-item"><strong>Leçon 1 :</strong> Le squelette et les muscles</li>
+                            <li class="lesson-item"><strong>Leçon 2 :</strong> La digestion des aliments</li>
+                            <li class="lesson-item"><strong>Leçon 3 :</strong> La respiration (mouvements respiratoires)</li>
+                            <li class="lesson-item"><strong>Leçon 4 :</strong> L'activité physique et la santé</li>
+                            <li class="lesson-item"><strong>Leçon 5 :</strong> À chacun son milieu (habitats naturels)</li>
+                            <li class="lesson-item"><strong>Leçon 6 :</strong> La chaine alimentaire simple</li>
+                            <li class="lesson-item"><strong>Leçon 7 :</strong> Adaptation des animaux en hiver</li>
+                            <li class="lesson-item"><strong>Leçon 8 :</strong> Reproduction sexuée des animaux</li>
+                            <li class="lesson-item"><strong>Leçon 9 :</strong> La reproduction des végétaux sans graines</li>
+                            <li class="lesson-item"><strong>Leçon 10 :</strong> Rôles des différentes parties de la fleur</li>
+                            <li class="lesson-item"><strong>Leçon 11 :</strong> Les états de la matière et changements d'état</li>
+                            <li class="lesson-item"><strong>Leçon 12 :</strong> Mélanges et dissolutions dans l'eau</li>
+                            <li class="lesson-item"><strong>Leçon 13 :</strong> Le trajet de l'eau domestique</li>
+                            <li class="lesson-item"><strong>Leçon 14 :</strong> Le thermomètre et la mesure de la température</li>
+                            <li class="lesson-item"><strong>Leçon 15 :</strong> Les circuits électriques simples (pile, lampe, fils)</li>
+                            <li class="lesson-item"><strong>Leçon 16 :</strong> Conducteurs et isolants électriques</li>
+                            <li class="lesson-item"><strong>Leçon 17 :</strong> Le levier et la balance (mesurer des masses)</li>
+                            <li class="lesson-item"><strong>Leçon 18 :</strong> Les repères dans le temps et le calendrier</li>
+                            <li class="lesson-item"><strong>Leçon 19 :</strong> Risques naturels et environnement</li>
+                            <li class="lesson-item"><strong>Leçon 20 :</strong> La biodiversité locale et sa protection</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CM1 -->
+            <div class="col-lg-6">
+                <div class="level-card">
+                    <div class="card-header card-header-cm1 py-3 text-center">
+                        <h3 class="h4 mb-0 fw-bold"><i class="fas fa-flask me-2"></i>CM1 - Sciences (20 Leçons)</h3>
+                    </div>
+                    <div class="card-body p-3" style="max-height: 400px; overflow-y: auto;">
+                        <ul class="list-unstyled mb-0">
+                            <li class="lesson-item"><strong>Leçon 1 :</strong> Le système circulatoire (cœur et vaisseaux)</li>
+                            <li class="lesson-item"><strong>Leçon 2 :</strong> Les fonctions de nutrition et l'énergie</li>
+                            <li class="lesson-item"><strong>Leçon 3 :</strong> Les micro-organismes (bactéries et virus utiles/nocifs)</li>
+                            <li class="lesson-item"><strong>Leçon 4 :</strong> La puberté et les changements corporels</li>
+                            <li class="lesson-item"><strong>Leçon 5 :</strong> Écosystèmes et relations entre êtres vivants</li>
+                            <li class="lesson-item"><strong>Leçon 6 :</strong> Réseaux trophiques complexes</li>
+                            <li class="lesson-item"><strong>Leçon 7 :</strong> L'adaptation des êtres vivants aux milieux extrêmes</li>
+                            <li class="lesson-item"><strong>Leçon 8 :</strong> Fossiles et histoire de la Terre</li>
+                            <li class="lesson-item"><strong>Leçon 9 :</strong> La pollinisation et la dissémination des graines</li>
+                            <li class="lesson-item"><strong>Leçon 10 :</strong> Classification phylogénétique simplifiée</li>
+                            <li class="lesson-item"><strong>Leçon 11 :</strong> Volume et masse d'un liquide et d'un solide</li>
+                            <li class="lesson-item"><strong>Leçon 12 :</strong> La pression de l'air et l'atmosphère</li>
+                            <li class="lesson-item"><strong>Leçon 13 :</strong> Traitement des eaux usées et potabilisation</li>
+                            <li class="lesson-item"><strong>Leçon 14 :</strong> Sources et transferts d'énergie</li>
+                            <li class="lesson-item"><strong>Leçon 15 :</strong> Le courant électrique : dangers et sécurité</li>
+                            <li class="lesson-item"><strong>Leçon 16 :</strong> Le magnétisme et la boussole</li>
+                            <li class="lesson-item"><strong>Leçon 17 :</strong> Propagation de la lumière et éclipses</li>
+                            <li class="lesson-item"><strong>Leçon 18 :</strong> Le système solaire et les mouvements de la Terre</li>
+                            <li class="lesson-item"><strong>Leçon 19 :</strong> Volcans et séismes (risques géologiques)</li>
+                            <li class="lesson-item"><strong>Leçon 20 :</strong> Développement durable et empreinte écologique</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p class="mb-2 fw-bold text-white"><i class="fas fa-graduation-cap me-2"></i>Portail Éducatif - Sciences CP à CM1</p>
+            <p class="small mb-0">Programmes structurés en 20 leçons par niveau.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
