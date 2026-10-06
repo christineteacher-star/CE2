@@ -1,246 +1,453 @@
 <!DOCTYPE html>
+
 <html lang="fr">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>À chacun son milieu - Leçon de Sciences CE2</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
     <style>
+
         :root {
+
             --primary-color: #3b82f6;
+
             --secondary-color: #10b981;
+
             --bg-light: #f8fafc;
+
         }
+
         body {
+
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
             background-color: var(--bg-light);
+
             color: #1e293b;
+
             line-height: 1.6;
+
         }
+
         .navbar {
+
             background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+
         }
+
         .hero-section {
+
             background: linear-gradient(135deg, #3b82f6 0%, #10b981 100%);
+
             color: white;
+
             padding: 3rem 1rem;
+
             border-radius: 0 0 2rem 2rem;
+
             margin-bottom: 2.5rem;
+
             box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.3);
+
         }
+
         .content-card {
+
             border: none;
+
             border-radius: 1rem;
+
             background: white;
+
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+
             margin-bottom: 2rem;
+
             overflow: hidden;
+
         }
+
         .card-header-custom {
+
             background-color: #3b82f6;
+
             color: white;
+
             font-weight: bold;
+
             padding: 1rem 1.5rem;
+
         }
+
         .milieu-card {
+
             border-radius: 1rem;
+
             border: 2px solid #e2e8f0;
+
             transition: transform 0.2s;
+
             height: 100%;
+
             background: #fff;
+
         }
+
         .milieu-card:hover {
+
             transform: translateY(-5px);
+
             border-color: #3b82f6;
+
         }
+
         .trace-ecrite {
+
             background-color: #eff6ff;
+
             border-left: 5px solid #3b82f6;
+
             padding: 1.5rem;
+
             border-radius: 0.5rem;
+
         }
+
         .table th {
+
             background-color: #f1f5f9;
+
         }
+
         .footer {
+
             background-color: #0f172a;
+
             color: #94a3b8;
+
             padding: 2.5rem 0;
+
             margin-top: 4rem;
+
         }
+
     </style>
+
 </head>
+
 <body>
 
+
+
     <!-- Navbar -->
+
     <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+
         <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html"><i class="fas fa-seedling me-2"></i>SVT - CE2 : Fiche Pédagogique</a>
-            <a href="index.html" class="btn btn-outline-light btn-sm"><i class="fas fa-home me-1"></i> Retour à l'accueil</a>
+
+            <a class="navbar-brand fw-bold" href="#"><i class="fas fa-seedling me-2"></i>SVT - CE2 : Fiche Pédagogique</a>
+
         </div>
+
     </nav>
 
+
+
     <!-- Hero Section -->
+
     <header class="hero-section text-center">
+
         <div class="container">
+
             <span class="badge bg-light text-primary mb-2 px-3 py-2 rounded-pill fw-bold">Leçon 5 - Sciences de la Vie</span>
+
             <h1 class="display-4 fw-bold mb-3">À chacun son milieu</h1>
-            <p class="lead mb-3 col-lg-8 mx-auto">Découverte des habitats naturels des êtres vivants (animaux et plantes) et de leur adaptation.</p>
-            
-            <!-- Lien vers le jeu interactif -->
-            <a href="jeu_milieux_de_vie.html" class="btn btn-warning btn-lg fw-bold text-dark shadow mt-2">
-                <i class="fas fa-gamepad me-2"></i> Jouer : Les milieux de vie
-            </a>
+
+            <p class="lead mb-0 col-lg-8 mx-auto">Découverte des habitats naturels des êtres vivants (animaux et plantes) et de leur adaptation.</p>
+
         </div>
+
     </header>
 
+
+
     <!-- Contenu Principal -->
+
     <main class="container">
 
+
+
         <!-- Objectifs & Infos -->
+
         <div class="row mb-4">
+
             <div class="col-md-4 mb-3">
+
                 <div class="content-card h-100 p-4">
+
                     <h5 class="text-primary fw-bold mb-3"><i class="fas fa-bullseye me-2"></i>Objectifs</h5>
+
                     <ul class="small text-muted mb-0 ps-3">
+
                         <li>Distinguer animaux domestiques et sauvages.</li>
+
                         <li>Comprendre la notion de milieu de vie.</li>
+
                         <li>Classer les animaux et plantes selon leur habitat.</li>
+
                     </ul>
+
                 </div>
+
             </div>
+
             <div class="col-md-8 mb-3">
+
                 <div class="content-card h-100 p-4">
+
                     <h5 class="text-primary fw-bold mb-3"><i class="fas fa-info-circle me-2"></i>Problématisation de départ</h5>
+
                     <p class="text-muted mb-0">
+
                         <em>"Est-ce qu'un lion ou une baleine peuvent vivre chez nous à la maison ?"</em><br>
+
                         À travers cette question, les élèves comprennent qu'un être vivant possède des besoins précis et ne peut s'épanouir que dans son <strong>milieu naturel</strong> adapté.
+
                     </p>
+
                 </div>
+
             </div>
+
         </div>
+
+
 
         <!-- Les 3 Grands Milieux -->
+
         <div class="row text-center mb-5">
+
             <div class="col">
+
                 <h2 class="fw-bold mb-2">Les 3 Grands Milieux Naturels</h2>
+
                 <p class="text-muted">Où vivent les animaux et les plantes ?</p>
+
             </div>
+
         </div>
+
+
 
         <div class="row g-4 mb-5">
+
             <div class="col-md-4">
+
                 <div class="milieu-card p-4 text-center">
+
                     <div class="text-success mb-3" style="font-size: 2.5rem;"><i class="fas fa-tree"></i></div>
+
                     <h4 class="fw-bold text-success">La Forêt</h4>
+
                     <p class="text-muted small mt-2">Un milieu terrestre riche en végétation arborée, abritant de nombreux animaux sauvages.</p>
+
                     <hr>
+
                     <p class="small mb-0"><strong>Exemples :</strong> Le loup, l'écureuil, le chêne, les fougères.</p>
+
                 </div>
+
             </div>
+
             <div class="col-md-4">
+
                 <div class="milieu-card p-4 text-center">
+
                     <div class="text-warning mb-3" style="font-size: 2.5rem;"><i class="fas fa-sun"></i></div>
+
                     <h4 class="fw-bold text-warning">Le Désert</h4>
+
                     <p class="text-muted small mt-2">Un milieu chaud et aride, caractérisé par un grand manque d'eau et des températures extrêmes.</p>
+
                     <hr>
+
                     <p class="small mb-0"><strong>Exemples :</strong> Le chameau, le fennec, le cactus.</p>
+
                 </div>
+
             </div>
+
             <div class="col-md-4">
+
                 <div class="milieu-card p-4 text-center">
+
                     <div class="text-primary mb-3" style="font-size: 2.5rem;"><i class="fas fa-water"></i></div>
+
                     <h4 class="fw-bold text-primary">L'Eau</h4>
+
                     <p class="text-muted small mt-2">Milieu aquatique divisé en eau douce (rivières) et eau salée (mers et océans).</p>
+
                     <hr>
+
                     <p class="small mb-0"><strong>Exemples :</strong> La baleine (mer), la grenouille (rivière), les algues.</p>
+
                 </div>
+
             </div>
+
         </div>
+
+
 
         <!-- Déroulement de la séance -->
+
         <div class="content-card mb-5">
+
             <div class="card-header-custom">
+
                 <i class="fas fa-tasks me-2"></i> Déroulement de la Séance (Étapes clés)
+
             </div>
+
             <div class="card-body p-4">
+
                 <div class="table-responsive">
+
                     <table class="table table-bordered align-middle mb-0">
+
                         <thead>
+
                             <tr>
+
                                 <th style="width: 20%;">Étapes</th>
+
                                 <th style="width: 40%;">Activité du Professeur</th>
+
                                 <th style="width: 40%;">Activité des Élèves</th>
+
                             </tr>
+
                         </thead>
+
                         <tbody>
+
                             <tr>
+
                                 <td class="fw-bold">1. Mise en situation (5 min)</td>
+
                                 <td>Questionne sur les animaux de compagnie à la maison.</td>
+
                                 <td>Citent chat, chien, oiseau et leur lieu de vie domestique.</td>
+
                             </tr>
+
                             <tr>
+
                                 <td class="fw-bold">2. Problématisation (10 min)</td>
+
                                 <td>Pose la question : <em>"Peut-on élever un lion ou une baleine chez soi ?"</em></td>
+
                                 <td>Débattent et réalisent que ces animaux ont besoin de la savane ou de l'océan.</td>
+
                             </tr>
+
                             <tr>
+
                                 <td class="fw-bold">3. Les Milieux (15 min)</td>
+
                                 <td>Présente la forêt, le désert et l'eau (supports visuels / manuel p. 24-25).</td>
+
                                 <td>Classent les animaux et plantes selon leur habitat naturel.</td>
+
                             </tr>
+
                             <tr>
+
                                 <td class="fw-bold">4. Bilan & Trace écrite (15 min)</td>
+
                                 <td>Anime la dictée à l'adulte pour structurer les apprentissages.</td>
+
                                 <td>Recopient la leçon sur le cahier de sciences.</td>
+
                             </tr>
+
                         </tbody>
+
                     </table>
+
                 </div>
+
             </div>
+
         </div>
+
+
 
         <!-- Trace Écrite -->
-        <div class="content-card mb-5">
+
+        <div class="content-card">
+
             <div class="card-header-custom bg-success">
+
                 <i class="fas fa-book-open me-2"></i> Trace Écrite / Bilan (Cahier de l'élève)
+
             </div>
+
             <div class="card-body p-4">
+
                 <div class="trace-ecrite">
+
                     <h5 class="fw-bold text-dark mb-3">Ce que nous avons appris :</h5>
+
                     <ul class="mb-0 text-dark">
+
                         <li class="mb-2">Les <strong>êtres vivants</strong> (animaux et plantes) vivent dans un <strong>milieu de vie</strong> qui correspond à leur habitat naturel.</li>
+
                         <li class="mb-2">Chaque être vivant possède des besoins spécifiques et ne peut pas survivre n'importe où (ex. : le chameau dans le désert, le poisson dans l'eau).</li>
+
                         <li>On distingue trois grands milieux naturels principaux : <strong>la forêt</strong>, <strong>le désert</strong> et <strong>l'eau</strong> (rivières et mers).</li>
+
                     </ul>
+
                 </div>
+
             </div>
+
         </div>
 
-        <!-- Section Exercice / Jeu interactif bas de page -->
-        <div class="row">
-            <div class="col-12 text-center">
-                <div class="p-4 bg-white rounded-4 shadow-sm border">
-                    <h4 class="fw-bold text-primary mb-2"><i class="fas fa-puzzle-piece me-2"></i>Envie de tester tes connaissances ?</h4>
-                    <p class="text-muted mb-3">Exerce-toi en associant chaque animal ou plante à son milieu de vie naturel.</p>
-                    <a href="jeu_milieux_de_vie.html" class="btn btn-primary btn-lg px-4 fw-bold">
-                        <i class="fas fa-play-circle me-2"><b>Lancer le jeu "Les milieux de vie"</b></i>
-                    </a>
-                </div>
-            </div>
-        </div>
+
 
     </main>
 
+
+
     <!-- Footer -->
+
     <footer class="footer">
+
         <div class="container text-center">
+
             <p class="mb-2 fw-bold text-white"><i class="fas fa-graduation-cap me-2"></i>SVT - CE2 : À chacun son milieu</p>
+
             <p class="small mb-0">Fiche de séquence interactive conforme au programme.</p>
+
         </div>
+
     </footer>
 
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>
